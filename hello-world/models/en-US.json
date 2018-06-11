@@ -1,0 +1,46 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hello world skill",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "please cancel",
+            "please close",
+            "please close it",
+            "please cancel it"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "i need help",
+            "can you help me",
+            "please help me"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "please stop"
+          ]
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "hello",
+            "say hello",
+            "say hello world"
+          ]
+        }
+      ]
+    }
+  }
+}
